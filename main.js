@@ -6,7 +6,7 @@ const dice = document.getElementById('dice');
 var adviceSiteURL = 'https://api.adviceslip.com/advice';
 
 //set media query to respond to screen size changes
-const mediaQuery = window.matchMedia('(max-width: 375px)');
+const mediaQuery = window.matchMedia('(max-width: 600px)');
 
 
 mediaQuery.addEventListener('change', setDivider);

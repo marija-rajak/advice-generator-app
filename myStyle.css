@@ -91,7 +91,17 @@ footer a {
 
 @media screen and (max-width: 375px) {
 	#wrapper {
-		width: 300px;
+		width: 335px;
 		padding: 30px 20px 60px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#wrapper {
+		max-width: 90%;
+	}
+	
+	#separator {
+		max-width: 100%;
 	}
 }
